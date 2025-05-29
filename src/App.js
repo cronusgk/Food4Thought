@@ -1,12 +1,12 @@
-import './App.css';
-import Button from "./Components/Button"
+import './App.css'
 import Header from "./Components/Header"
+import Image from "./Components/Image"
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Button />
+      <Image />
     </div>
   );
 }

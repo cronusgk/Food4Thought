@@ -1,25 +1,82 @@
 .App {
-  text-align: center;
-}
-
-.btn {
-  width: 10em;
-  max-width: 100%;
+  display:flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: auto;
-  background-color: #9F84BD;
-  color: #EDE3E9;
-  border-radius: 15px;
-  border-color: #C09BD8;
-  box-shadow: 5px 5px 5px hsl(0, 1%, 63%);
+  min-height: 10vh;
 }
 
 .title {
-  font-size: 30px;
+  display:flex;
+  justify-content: center;
+  align-items: center ;
+  font-size: 2vw;
   color: #C09BD8;
   font-weight: bold;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 0.05em 0.05em 0.08em black;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  width: 12vw;
+  height: 9vh;
+  background-color: #9F84BD;
+  color: #EDE3E9;
+  border-radius: 2vh;
+  border-color: #C09BD8;
+  box-shadow: 0.4vh 0.3vw .8vh hsl(0, 1%, 63%);
+  margin-top: 1vh;
+}
+
+.btn-image{
+  height: 8vh;
+  width: 8vh;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  outline: 2px;
+  outline-color: black;
+}
+
+.random-image-div{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border:none;
+  height: 40vh;
+  width: 40vw;
+}
+
+.random-image {
+  height: 30vh;
+  width: 40vw;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .title{
+    font-size:6.5vw;
+    text-shadow: 0.06em 0.06em 0.12em black;
+  }
+  
+  .random-image {
+  height: 60vh;
+  width: 70vw;
+  object-fit: contain;
+  }
+
+  .btn{
+    width: 10rem;
+    height: 10vh;
+    margin-top: 6vh;
+  }
+
 }
 
 
