@@ -1,12 +1,12 @@
 import './App.css'
 import Header from "./Components/Header"
-import Image from "./Components/Image"
+import RandomImage from "./Components/RandomImage"
 
 function App() {
   return (
-    <div className="App">
+    <div className="main">
       <Header />
-      <Image />
+      <RandomImage />
     </div>
   );
 }

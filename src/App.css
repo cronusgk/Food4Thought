@@ -1,16 +1,15 @@
-.App {
+.main {
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 10vh;
 }
 
 .title {
   display:flex;
   justify-content: center;
   align-items: center ;
-  font-size: 2vw;
+  font-size: clamp(1.5rem, 1.4vw + 1rem, 5rem);
   color: #C09BD8;
   font-weight: bold;
   text-shadow: 0.05em 0.05em 0.08em black;
@@ -20,13 +19,13 @@
   display: flex;
   justify-content: center;
   align-items: center ;
-  width: 12vw;
+  width: clamp(5rem, 13rem, 16rem);
   height: 9vh;
   background-color: #9F84BD;
   color: #EDE3E9;
   border-radius: 2vh;
   border-color: #C09BD8;
-  box-shadow: 0.4vh 0.3vw .8vh hsl(0, 1%, 63%);
+  box-shadow: 0.4vh 0.3vw .8vh hsl(0deg 1% 63%);
   margin-top: 1vh;
 }
 
@@ -39,9 +38,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center ;
-  outline: 2px;
-  outline-color: black;
+  align-items: center;
 }
 
 .random-image-div{
@@ -49,34 +46,17 @@
   justify-content: center;
   align-items: center;
   border:none;
-  height: 40vh;
-  width: 40vw;
+  height: clamp(20vh, 30vh, 40vh);
+  width: clamp(30vh, 40vh, 50vh);
+  aspect-ratio: 16 / 9;
 }
 
 .random-image {
-  height: 30vh;
-  width: 40vw;
-  object-fit: contain;
+  width: 60%;
+  height: 80%;
 }
 
-@media (max-width: 600px) {
-  .title{
-    font-size:6.5vw;
-    text-shadow: 0.06em 0.06em 0.12em black;
-  }
-  
-  .random-image {
-  height: 60vh;
-  width: 70vw;
-  object-fit: contain;
-  }
 
-  .btn{
-    width: 10rem;
-    height: 10vh;
-    margin-top: 6vh;
-  }
 
-}
 
 

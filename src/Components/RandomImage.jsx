@@ -28,7 +28,7 @@ function randomNum(min, max){
     return num
 }
 
-function Image(){
+function RandomImage(){
     const [currPicture, setPicture] = useState(foods[0]);
     return( 
         <div className="image-wrapper">
@@ -42,4 +42,4 @@ function Image(){
     );
 }
 
-export default Image;
+export default RandomImage;
