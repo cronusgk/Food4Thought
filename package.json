@@ -1,7 +1,7 @@
 {
   "name": "food4thought",
   "version": "0.1.0",
-  "homepage": "https://cronusgk.github.io/Food4Thought",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
