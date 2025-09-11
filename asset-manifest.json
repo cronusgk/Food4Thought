@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Food4Thought/static/css/main.7aba31a3.css",
-    "main.js": "/Food4Thought/static/js/main.f54b128c.js",
-    "static/js/453.4bf7beea.chunk.js": "/Food4Thought/static/js/453.4bf7beea.chunk.js",
-    "static/media/snoopyeating.png": "/Food4Thought/static/media/snoopyeating.e5a1f744b7839783ee7d.png",
-    "static/media/food5.png": "/Food4Thought/static/media/food5.19dea7080375d8ec3eb7.png",
-    "static/media/food6.png": "/Food4Thought/static/media/food6.b9f861896c7988df9237.png",
-    "static/media/food4.png": "/Food4Thought/static/media/food4.b0d967550c55ed6b0d17.png",
-    "static/media/food3.png": "/Food4Thought/static/media/food3.96ba8286df7cb8915a4a.png",
-    "index.html": "/Food4Thought/index.html",
-    "main.7aba31a3.css.map": "/Food4Thought/static/css/main.7aba31a3.css.map",
-    "main.f54b128c.js.map": "/Food4Thought/static/js/main.f54b128c.js.map",
-    "453.4bf7beea.chunk.js.map": "/Food4Thought/static/js/453.4bf7beea.chunk.js.map"
+    "main.css": "./static/css/main.7aba31a3.css",
+    "main.js": "./static/js/main.07aca2ad.js",
+    "static/js/453.4bf7beea.chunk.js": "./static/js/453.4bf7beea.chunk.js",
+    "static/media/snoopyeating.png": "./static/media/snoopyeating.e5a1f744b7839783ee7d.png",
+    "static/media/food5.png": "./static/media/food5.19dea7080375d8ec3eb7.png",
+    "static/media/food6.png": "./static/media/food6.b9f861896c7988df9237.png",
+    "static/media/food4.png": "./static/media/food4.b0d967550c55ed6b0d17.png",
+    "static/media/food3.png": "./static/media/food3.96ba8286df7cb8915a4a.png",
+    "index.html": "./index.html",
+    "main.7aba31a3.css.map": "./static/css/main.7aba31a3.css.map",
+    "main.07aca2ad.js.map": "./static/js/main.07aca2ad.js.map",
+    "453.4bf7beea.chunk.js.map": "./static/js/453.4bf7beea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7aba31a3.css",
-    "static/js/main.f54b128c.js"
+    "static/js/main.07aca2ad.js"
   ]
 }
