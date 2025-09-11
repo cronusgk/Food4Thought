@@ -1,25 +1,10 @@
-import food1 from "../Images/food1.png"
-import food2 from "../Images/food2.png"
-import food3 from "../Images/food3.png"
-import food4 from "../Images/food4.png"
-import food5 from "../Images/food5.png"
-import food6 from "../Images/food6.png"
-import food7 from "../Images/food7.png"
-import food8 from "../Images/food8.png"
-
 import snoopyeat from "../Images/snoopyeating.png";
 import { useState } from 'react';
 
-const foods = [
-    food1,
-    food2,
-    food3,
-    food4,
-    food5,
-    food6,
-    food7,
-    food8
-];
+
+
+const importAll = (r) => r.keys().map(r);
+const foods = importAll(require.context('../Images/foods', false, /\.(png|jpg?g|svg)$/));
 
 function randomNum(min, max){
     const minCeiled = Math.ceil(min);
@@ -31,7 +16,7 @@ function randomNum(min, max){
 function RandomImage(){
     const [currPicture, setPicture] = useState(foods[0]);
     return( 
-        <div className="image-wrapper">
+        <div className="main-wrapper">
             <div className="random-image-div">
                 <img className="random-image" src={currPicture} alt='' />
             </div>
