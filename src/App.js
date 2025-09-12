@@ -4,9 +4,15 @@ import RandomImage from "./Components/RandomImage"
 
 function App() {
   return (
-    <div className="main">
-      <Header />
-      <RandomImage />
+    <div className="wrapper">
+      <div className="background">
+      </div>
+      <div className="background-color">
+      </div>
+      <div className="app">
+        <Header />
+        <RandomImage />
+      </div>
     </div>
   );
 }

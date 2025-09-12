@@ -20,8 +20,8 @@ function RandomImage(){
             <div className="random-image-div">
                 <img className="random-image" src={currPicture} alt='' />
             </div>
-            <button className="btn" onClick={() => setPicture(foods[randomNum(0, 7)])}>
-                <img className="btn-image" src={snoopyeat} alt="" />
+            <button className="btn" onClick={() => setPicture(foods[randomNum(0, foods.length - 1)])}>
+                <img className="btn-image" src={snoopyeat} alt=""/>
             </button>
         </div>
     );
